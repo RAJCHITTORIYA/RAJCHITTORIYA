@@ -26,24 +26,6 @@ Computer Science & Engineering student focused on Data Structures & Algorithms, 
 
 ---
 
-## 📊 GitHub & Coding Stats
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/raj_chittoriya?theme=dark&font=JetBrains%20Mono&ext=contest)](https://leetcode.com/u/raj_chittoriya/)
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=RAJCHITTORIYA&theme=tokyonight&hide_border=true&border_radius=10&background=0D1117&ring=00F0FF&fire=00F0FF&currStreakNum=7EE787&sideNums=E0E0E0&currStreakLabel=00F0FF)](https://github.com/RAJCHITTORIYA)
-
-![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=RAJCHITTORIYA&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&bg_color=0D1117&title_color=00F0FF&text_color=E0E0E0&icon_color=00F0FF)
-
-![Top Languages](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=RAJCHITTORIYA&theme=tokyonight&layout=compact&hide_border=true&border_radius=10&bg_color=0D1117&title_color=00F0FF&text_color=E0E0E0)
-
----
-
-## 💡 Developer Philosophy
-
-> *"Build. Break. Debug. Learn. Repeat."*
-
----
-
 <p align="center">
   ⭐ <i>Thanks for visiting! Feel free to check out my repositories or connect on <a href="https://www.linkedin.com/in/raj-chittoriya-7179a7322/">LinkedIn</a>.</i>
 </p>
