@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ![Raj Chittoriya Terminal](./assets/terminal.svg)
 
 # 👋 Hi, I'm Raj Chittoriya
