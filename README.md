@@ -28,15 +28,12 @@
 
 </div>
 
----
+👨‍💻 Full Description & About Me
 
-### 👨‍💻 Full Description & About Me
+Hey there! 👋 I am Raj Chittoriya, a tech-driven and passionate Computer Science & Engineering undergraduate at IILM University, Greater Noida (Batch 2024 – 2028), based in Delhi NCR, India.
 
-Hey there! 👋 I am **Raj Chittoriya**, a tech-driven and passionate Computer Science & Engineering undergraduate at **IILM University, Greater Noida (Batch 2024 – 2028)**, based in Delhi NCR, India.
+I thrive at the intersection of logical problem-solving and software engineering. My primary focus lies in mastering Data Structures & Algorithms (DSA), crafting robust Object-Oriented Programming (OOPs) solutions, and architecting efficient Relational Database Management Systems (RDBMS). I continuously sharpen my computational thinking by actively tackling problems on LeetCode and GeeksforGeeks.
 
-I thrive at the intersection of logical problem-solving and software engineering. My primary focus lies in mastering **Data Structures & Algorithms (DSA)**, crafting robust **Object-Oriented Programming (OOPs)** solutions, and architecting efficient **Relational Database Management Systems (RDBMS)**. I continuously sharpen my computational thinking by actively tackling problems on **LeetCode** and **GeeksforGeeks**.
-
-```yaml
 Name: Raj Chittoriya
 
 Institution: IILM University, Greater Noida
@@ -58,21 +55,18 @@ Core Specialties:
   - Tools & Platforms: Git, GitHub, VS Code, Linux, Jupyter Notebook
 
 Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev tools, Coffee & Coding
-```
 
-* 🎓 **Academic Journey:** Pursuing B.Tech CSE, consistently building semester-driven projects that solve real operational challenges.
+🎓 Academic Journey: Pursuing B.Tech CSE, consistently building semester-driven projects that solve real operational challenges.
 
-* 💻 **Hands-on Development:** Building database-driven platforms and process-automation tools while strengthening programming fundamentals.
+💻 Hands-on Development: Building database-driven platforms and process-automation tools while strengthening programming fundamentals.
 
-* 🎯 **Current Focus:** Leveling up on LeetCode & GeeksforGeeks, mastering advanced Java paradigms, and diving deeper into scalable backend engineering.
+🎯 Current Focus: Leveling up on LeetCode & GeeksforGeeks, mastering advanced Java paradigms, and diving deeper into scalable backend engineering.
 
-* 🤝 **Collaboration:** Open to collaborating on open-source projects, hackathons, technical teamwork, and developer internships.
+🤝 Collaboration: Open to collaborating on open-source projects, hackathons, technical teamwork, and developer internships.
 
-* ⚡ **Philosophy:** *"Simplicity is prerequisite for reliability — write clean, efficient, and intentional code."*
+⚡ Philosophy: "Simplicity is prerequisite for reliability — write clean, efficient, and intentional code."
 
----
-
-### 🌐 Connect With Me & Coding Profiles
+🌐 Connect With Me & Coding Profiles
 
 <div align="center">
 
@@ -82,7 +76,6 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 
 </a>
 
-
  
 
 <a href="https://leetcode.com/u/raj_chittoriya/" target="_blank">
@@ -90,7 +83,6 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
   <img src="https://img.shields.io/badge/LeetCode-raj__chittoriya-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
 
 </a>
-
 
  
 
@@ -100,7 +92,6 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 
 </a>
 
-
  
 
 <a href="https://github.com/RAJCHITTORIYA" target="_blank">
@@ -108,7 +99,6 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
   <img src="https://img.shields.io/badge/GitHub-RAJCHITTORIYA-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 
 </a>
-
 
  
 
@@ -120,9 +110,7 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 
 </div>
 
----
-
-### ⚡ Real-Time Streaks & Problem Solving
+⚡ Real-Time Streaks & Problem Solving
 
 <div align="center">
 
@@ -156,12 +144,11 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 
   <tr>
 
-```
 <td align="center" valign="top">
 
   <a href="https://github.com/RAJCHITTORIYA">
 
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=RAJCHITTORIYA&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&background=0D1117&title_color=00F0FF&text_color=E0E0E0&icon_color=00F0FF" height="175" alt="GitHub Stats" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=RAJCHITTORIYA&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&background=0D1117&title_color=00F0FF&text_color=E0E0E0&icon_color=00F0FF" height="175" alt="GitHub Stats" />
 
   </a>
 
@@ -171,12 +158,11 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 
   <a href="https://github.com/RAJCHITTORIYA">
 
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=RAJCHITTORIYA&theme=tokyonight&layout=compact&hide_border=true&border_radius=10&background=0D1117&title_color=00F0FF&text_color=E0E0E0" height="175" alt="Top Languages" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=RAJCHITTORIYA&theme=tokyonight&layout=compact&hide_border=true&border_radius=10&background=0D1117&title_color=00F0FF&text_color=E0E0E0" height="175" alt="Top Languages" />
 
   </a>
 
 </td>
-```
 
   </tr>
 
@@ -184,9 +170,7 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 
 </div>
 
----
-
-### 🛠️ Technical Stack & Skills Arsenal
+🛠️ Technical Stack & Skills Arsenal
 
 <div align="center">
 
@@ -208,24 +192,35 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 
 <br/>
 
-| Category            | Technologies & Tools                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Languages**       | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square\&logo=c\&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square\&logo=c%2B%2B\&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square\&logo=mysql\&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)                           |
-| **Databases**       | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square\&logo=mysql\&logoColor=white) ![Relational DBMS](https://img.shields.io/badge/RDBMS-Architecture-blue?style=flat-square) ![Schema Design](https://img.shields.io/badge/Schema-Design%20%26%20Queries-informational?style=flat-square)                                                                                                                                                                                                                                                                                                                                  |
-| **Web Foundations** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square\&logo=html5\&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square\&logo=css3\&logoColor=white)                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Developer Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square\&logo=visual-studio-code\&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square\&logo=jupyter\&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square\&logo=postman\&logoColor=white) |
+Category
+
+Technologies & Tools
+
+Languages
+
+     
+
+Databases
+
+  
+
+Web Foundations
+
+ 
+
+Developer Tools
+
+     
 
 </details>
 
----
 
 
+<a href="https://github.com/Vaibhav-00018/DBMS_PROJECT-UCR-">
 
-    <a href="https://github.com/Vaibhav-00018/DBMS_PROJECT-UCR-">
+  <img src="https://img.shields.io/badge/View_Repository-DBMS__PROJECT--UCR-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="DBMS Repo" />
 
-      <img src="https://img.shields.io/badge/View_Repository-DBMS__PROJECT--UCR-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="DBMS Repo" />
-
-    </a>
+</a>
 
   </p>
 
@@ -241,11 +236,11 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 
   <p align="center">
 
-    <a href="https://github.com/Vaibhav-00018/PROJECT-O1---Student-Attendance-Managment-System">
+<a href="https://github.com/Vaibhav-00018/PROJECT-O1---Student-Attendance-Managment-System">
 
-      <img src="https://img.shields.io/badge/View_Repository-Attendance__System-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="Attendance Repo" />
+  <img src="https://img.shields.io/badge/View_Repository-Attendance__System-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="Attendance Repo" />
 
-    </a>
+</a>
 
   </p>
 
@@ -254,14 +249,12 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
   <p><b>Tech:</b> <code>Python</code> <code>File I/O</code> <code>Automation</code> <code>Data Processing</code></p>
 
 </td>
-```
 
- ### 🚀 Featured Projects & Repositories
+🚀 Featured Projects & Repositories
 
 <table>
   <tr>
 
-```
 <td width="50%" valign="top">
 
   <h3 align="center">🎓 University Course Registration (UCR)</h3>
@@ -293,13 +286,11 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
   <p><b>Tech:</b> <code>Python</code> <code>File I/O</code> <code>Automation</code> <code>Data Processing</code></p>
 
 </td>
-```
 
   </tr>
 
   <tr>
 
-```
 <td width="50%" valign="top">
 
   <h3 align="center">☕ PALB Java Solutions & Algorithms</h3>
@@ -331,15 +322,13 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
   <p><b>Tech:</b> <code>Python</code> <code>Jupyter Notebook</code> <code>Data Exploration</code></p>
 
 </td>
-```
 
   </tr>
 </table>
 
 
-```
 
-### 💡 Daily Dev Inspiration
+💡 Daily Dev Inspiration
 
 <div align="center">
 
