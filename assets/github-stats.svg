@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 340" width="1100" height="340" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="statCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#11161D" />
+      <stop offset="100%" stop-color="#0B0F14" />
+    </linearGradient>
+
+    <linearGradient id="statHeaderBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161B22" />
+      <stop offset="100%" stop-color="#12171E" />
+    </linearGradient>
+
+    <!-- Header Text Gradients -->
+    <linearGradient id="overviewGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#58A6FF" />
+    </linearGradient>
+
+    <linearGradient id="langGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB86C" />
+      <stop offset="100%" stop-color="#FF9E3B" />
+    </linearGradient>
+
+    <!-- Language Colors -->
+    <linearGradient id="javaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB86C" />
+      <stop offset="100%" stop-color="#F0883E" />
+    </linearGradient>
+
+    <linearGradient id="jsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F1FA8C" />
+      <stop offset="100%" stop-color="#E3B341" />
+    </linearGradient>
+
+    <linearGradient id="pyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#58A6FF" />
+    </linearGradient>
+
+    <linearGradient id="phpGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D2A8FF" />
+      <stop offset="100%" stop-color="#A371F7" />
+    </linearGradient>
+
+    <linearGradient id="cppGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+
+    <style>
+      .mono {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'SF Mono', 'Courier New', monospace;
+      }
+      .card-title {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 12.5px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+      .tab-label {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 11px;
+        fill: #484F58;
+      }
+      .prompt-text {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 12px;
+      }
+      .row-text {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 12px;
+      }
+      .lang-label {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 12px;
+        font-weight: 600;
+        fill: #E6EDF3;
+      }
+      .lang-pct {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 11.5px;
+        font-weight: 600;
+        fill: #8B949E;
+      }
+    </style>
+  </defs>
+
+  <!-- ======================================================== -->
+  <!-- CARD 1: GITHUB ACTIVITY & METRICS (Left)                 -->
+  <!-- ======================================================== -->
+  <g>
+    <rect x="20" y="18" width="520" height="304" rx="12" fill="url(#statCardBg)" stroke="#30363D" stroke-width="1.2" />
+    <path d="M 20,30 Q 20,18 32,18 L 528,18 Q 540,18 540,30 L 540,48 L 20,48 Z" fill="url(#statHeaderBg)" />
+    <line x1="20" y1="48" x2="540" y2="48" stroke="#21262D" stroke-width="1" />
+    
+    <circle cx="36" cy="33" r="3.5" fill="#00F0FF" />
+    <text x="48" y="37" class="card-title" fill="url(#overviewGrad)">01. GITHUB_METRICS</text>
+    <text x="525" y="37" text-anchor="end" class="tab-label">activity.log</text>
+
+    <!-- Terminal Prompt -->
+    <text x="38" y="74" class="prompt-text">
+      <tspan fill="#7EE787">raj@chittoriya:~$ </tspan><tspan fill="#E6EDF3">gh stats --overview</tspan>
+    </text>
+
+    <!-- Metric Rows -->
+    <g class="row-text">
+      <text x="38" y="104">
+        <tspan fill="#58A6FF">Total Repositories</tspan><tspan fill="#30363D">........ </tspan><tspan fill="#E6EDF3">29 Repositories</tspan>
+      </text>
+
+      <text x="38" y="132">
+        <tspan fill="#58A6FF">Primary Focus</tspan><tspan fill="#30363D">............. </tspan><tspan fill="#00F0FF">DSA • Java • Software Dev</tspan>
+      </text>
+
+      <text x="38" y="160">
+        <tspan fill="#58A6FF">Profile Status</tspan><tspan fill="#30363D">............ </tspan><tspan fill="#7EE787">● Active Contributor</tspan>
+      </text>
+
+      <text x="38" y="188">
+        <tspan fill="#58A6FF">Recent Activity</tspan><tspan fill="#30363D">........... </tspan><tspan fill="#E6EDF3">PACK_CHECK &amp; DSA Solutions</tspan>
+      </text>
+
+      <text x="38" y="216">
+        <tspan fill="#58A6FF">Cloud &amp; Security</tspan><tspan fill="#30363D">.......... </tspan><tspan fill="#D2A8FF">Zero Trust Architecture</tspan>
+      </text>
+
+      <text x="38" y="244">
+        <tspan fill="#58A6FF">Academic Program</tspan><tspan fill="#30363D">.......... </tspan><tspan fill="#E6EDF3">B.Tech CSE (2024–2028)</tspan>
+      </text>
+
+      <text x="38" y="272">
+        <tspan fill="#58A6FF">Target Role</tspan><tspan fill="#30363D">............... </tspan><tspan fill="#FFB86C">Software Development Engineer</tspan>
+      </text>
+    </g>
+
+    <!-- Terminal Footer Badge -->
+    <rect x="38" y="286" width="464" height="22" rx="4" fill="#161B22" stroke="#21262D" stroke-width="1" />
+    <text x="270" y="301" text-anchor="middle" class="mono" font-size="10.5" fill="#8B949E">
+      <tspan fill="#7EE787">✔ </tspan>Verified GitHub Activity • RAJCHITTORIYA
+    </text>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- CARD 2: PROGRAMMING LANGUAGES BREAKDOWN (Right)          -->
+  <!-- ======================================================== -->
+  <g>
+    <rect x="560" y="18" width="520" height="304" rx="12" fill="url(#statCardBg)" stroke="#30363D" stroke-width="1.2" />
+    <path d="M 560,30 Q 560,18 572,18 L 1068,18 Q 1080,18 1080,30 L 1080,48 L 560,48 Z" fill="url(#statHeaderBg)" />
+    <line x1="560" y1="48" x2="1080" y2="48" stroke="#21262D" stroke-width="1" />
+
+    <circle cx="576" cy="33" r="3.5" fill="#FFB86C" />
+    <text x="588" y="37" class="card-title" fill="url(#langGrad)">02. PROGRAMMING_LANGUAGES</text>
+    <text x="1065" y="37" text-anchor="end" class="tab-label">repo_analysis</text>
+
+    <!-- Continuous Multi-Color Top Distribution Bar -->
+    <g>
+      <rect x="580" y="62" width="156" height="8" rx="4" fill="url(#javaGrad)" />
+      <rect x="738" y="62" width="118" height="8" fill="url(#jsGrad)" />
+      <rect x="858" y="62" width="81" height="8" fill="url(#pyGrad)" />
+      <rect x="941" y="62" width="62" height="8" fill="url(#phpGrad)" />
+      <rect x="1005" y="62" width="35" height="8" rx="4" fill="url(#cppGrad)" />
+    </g>
+
+    <!-- 1. Java -->
+    <g>
+      <circle cx="586" cy="100" r="3" fill="#FFB86C" />
+      <text x="596" y="104" class="lang-label">Java</text>
+      <text x="1040" y="104" text-anchor="end" class="lang-pct" fill="#FFB86C">34.0%</text>
+      <rect x="580" y="112" width="460" height="5" rx="2.5" fill="#21262D" />
+      <rect x="580" y="112" width="156" height="5" rx="2.5" fill="url(#javaGrad)" />
+    </g>
+
+    <!-- 2. JavaScript & React -->
+    <g>
+      <circle cx="586" cy="138" r="3" fill="#F1FA8C" />
+      <text x="596" y="142" class="lang-label">JavaScript &amp; React</text>
+      <text x="1040" y="142" text-anchor="end" class="lang-pct" fill="#F1FA8C">26.0%</text>
+      <rect x="580" y="150" width="460" height="5" rx="2.5" fill="#21262D" />
+      <rect x="580" y="150" width="120" height="5" rx="2.5" fill="url(#jsGrad)" />
+    </g>
+
+    <!-- 3. Python & Cloud -->
+    <g>
+      <circle cx="586" cy="176" r="3" fill="#38BDF8" />
+      <text x="596" y="180" class="lang-label">Python &amp; Cloud</text>
+      <text x="1040" y="180" text-anchor="end" class="lang-pct" fill="#38BDF8">18.0%</text>
+      <rect x="580" y="188" width="460" height="5" rx="2.5" fill="#21262D" />
+      <rect x="580" y="188" width="83" height="5" rx="2.5" fill="url(#pyGrad)" />
+    </g>
+
+    <!-- 4. PHP & SQL -->
+    <g>
+      <circle cx="586" cy="214" r="3" fill="#D2A8FF" />
+      <text x="596" y="218" class="lang-label">PHP &amp; MySQL</text>
+      <text x="1040" y="218" text-anchor="end" class="lang-pct" fill="#D2A8FF">14.0%</text>
+      <rect x="580" y="226" width="460" height="5" rx="2.5" fill="#21262D" />
+      <rect x="580" y="226" width="64" height="5" rx="2.5" fill="url(#phpGrad)" />
+    </g>
+
+    <!-- 5. C / C++ -->
+    <g>
+      <circle cx="586" cy="252" r="3" fill="#00F0FF" />
+      <text x="596" y="256" class="lang-label">C / C++</text>
+      <text x="1040" y="256" text-anchor="end" class="lang-pct" fill="#00F0FF">8.0%</text>
+      <rect x="580" y="264" width="460" height="5" rx="2.5" fill="#21262D" />
+      <rect x="580" y="264" width="37" height="5" rx="2.5" fill="url(#cppGrad)" />
+    </g>
+
+    <!-- Terminal Footer Badge -->
+    <rect x="580" y="286" width="460" height="22" rx="4" fill="#161B22" stroke="#21262D" stroke-width="1" />
+    <text x="810" y="301" text-anchor="middle" class="mono" font-size="10.5" fill="#8B949E">
+      <tspan fill="#00F0FF">📊 </tspan>Calculated from 29 GitHub Repositories
+    </text>
+  </g>
+</svg>

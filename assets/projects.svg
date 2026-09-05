@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 660" width="1100" height="660" fill="none">
+  <defs>
+    <!-- Card Gradients -->
+    <linearGradient id="pCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#11161D" />
+      <stop offset="100%" stop-color="#0B0F14" />
+    </linearGradient>
+
+    <linearGradient id="pHeaderBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161B22" />
+      <stop offset="100%" stop-color="#12171E" />
+    </linearGradient>
+
+    <linearGradient id="btnBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161B22" />
+      <stop offset="100%" stop-color="#1C2128" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="cyanText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#58A6FF" />
+    </linearGradient>
+
+    <linearGradient id="orangeText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB86C" />
+      <stop offset="100%" stop-color="#FF9E3B" />
+    </linearGradient>
+
+    <linearGradient id="greenText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EE787" />
+      <stop offset="100%" stop-color="#56D364" />
+    </linearGradient>
+
+    <linearGradient id="purpleText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D2A8FF" />
+      <stop offset="100%" stop-color="#A371F7" />
+    </linearGradient>
+
+    <style>
+      .mono {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'SF Mono', 'Courier New', monospace;
+      }
+      .card-link {
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .card-rect {
+        transition: stroke 0.2s ease, transform 0.2s ease;
+      }
+      .proj-title {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .proj-tag {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #8B949E;
+      }
+      .proj-desc {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 12px;
+        fill: #C9D1D9;
+      }
+      .tech-label {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 11.5px;
+        font-weight: 500;
+      }
+      .action-text {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- ======================================================== -->
+  <!-- CARD 1: PACK_CHECK (Row 1 Left)                          -->
+  <!-- ======================================================== -->
+  <a href="https://github.com/RAJCHITTORIYA/PACK_CHECK" target="_blank" class="card-link">
+    <g>
+      <rect x="20" y="18" width="520" height="192" rx="12" fill="url(#pCardBg)" stroke="#30363D" stroke-width="1.2" class="card-rect" />
+      <path d="M 20,30 Q 20,18 32,18 L 528,18 Q 540,18 540,30 L 540,52 L 20,52 Z" fill="url(#pHeaderBg)" />
+      <line x1="20" y1="52" x2="540" y2="52" stroke="#21262D" stroke-width="1" />
+      
+      <circle cx="38" cy="35" r="4" fill="#00F0FF" />
+      <text x="50" y="40" class="proj-title" fill="url(#cyanText)">PACK_CHECK</text>
+      <text x="522" y="39" text-anchor="end" class="proj-tag">[ AI / OCR ]</text>
+
+      <text x="38" y="80" class="proj-desc">AI-powered legal metrology compliance inspection system</text>
+      <text x="38" y="98" class="proj-desc">for packaged product labels using OCR and parsing.</text>
+
+      <!-- Tech Stack -->
+      <text x="38" y="132" class="tech-label" fill="#8B949E">
+        <tspan fill="#58A6FF">●</tspan><tspan fill="#E6EDF3"> JavaScript </tspan>
+        <tspan fill="#00F0FF">●</tspan><tspan fill="#E6EDF3"> AI/OCR </tspan>
+        <tspan fill="#7EE787">●</tspan><tspan fill="#E6EDF3"> Full Stack</tspan>
+      </text>
+
+      <!-- Action Button -->
+      <rect x="38" y="152" width="168" height="30" rx="6" fill="url(#btnBg)" stroke="#30363D" stroke-width="1" />
+      <text x="122" y="171" text-anchor="middle" class="action-text" fill="#00F0FF">VIEW REPOSITORY →</text>
+    </g>
+  </a>
+
+  <!-- ======================================================== -->
+  <!-- CARD 2: DSA in Java (Row 1 Right)                        -->
+  <!-- ======================================================== -->
+  <a href="https://github.com/RAJCHITTORIYA/dsa" target="_blank" class="card-link">
+    <g>
+      <rect x="560" y="18" width="520" height="192" rx="12" fill="url(#pCardBg)" stroke="#30363D" stroke-width="1.2" class="card-rect" />
+      <path d="M 560,30 Q 560,18 572,18 L 1068,18 Q 1080,18 1080,30 L 1080,52 L 560,52 Z" fill="url(#pHeaderBg)" />
+      <line x1="560" y1="52" x2="1080" y2="52" stroke="#21262D" stroke-width="1" />
+
+      <circle cx="578" cy="35" r="4" fill="#FFB86C" />
+      <text x="590" y="40" class="proj-title" fill="url(#orangeText)">DSA in Java</text>
+      <text x="1062" y="39" text-anchor="end" class="proj-tag">[ ALGORITHMS ]</text>
+
+      <text x="578" y="80" class="proj-desc">Structured Java implementations and problem-solving solutions</text>
+      <text x="578" y="98" class="proj-desc">covering data structures, algorithms, and common DSA patterns.</text>
+
+      <!-- Tech Stack -->
+      <text x="578" y="132" class="tech-label" fill="#8B949E">
+        <tspan fill="#FFB86C">●</tspan><tspan fill="#E6EDF3"> Java </tspan>
+        <tspan fill="#00F0FF">●</tspan><tspan fill="#E6EDF3"> DSA </tspan>
+        <tspan fill="#7EE787">●</tspan><tspan fill="#E6EDF3"> Algorithms</tspan>
+      </text>
+
+      <!-- Action Button -->
+      <rect x="578" y="152" width="168" height="30" rx="6" fill="url(#btnBg)" stroke="#30363D" stroke-width="1" />
+      <text x="662" y="171" text-anchor="middle" class="action-text" fill="#FFB86C">VIEW REPOSITORY →</text>
+    </g>
+  </a>
+
+  <!-- ======================================================== -->
+  <!-- CARD 3: Zero Trust Architecture (Row 2 Left)             -->
+  <!-- ======================================================== -->
+  <a href="https://github.com/RAJCHITTORIYA/Secure-Hybrid-Datacenter-Network-Architecture-Multi-Tier-Cloud-Segmentation" target="_blank" class="card-link">
+    <g>
+      <rect x="20" y="230" width="520" height="192" rx="12" fill="url(#pCardBg)" stroke="#30363D" stroke-width="1.2" class="card-rect" />
+      <path d="M 20,242 Q 20,230 32,230 L 528,230 Q 540,230 540,242 L 540,264 L 20,264 Z" fill="url(#pHeaderBg)" />
+      <line x1="20" y1="264" x2="540" y2="264" stroke="#21262D" stroke-width="1" />
+
+      <circle cx="38" cy="247" r="4" fill="#D2A8FF" />
+      <text x="50" y="252" class="proj-title" fill="url(#purpleText)">Zero Trust Architecture</text>
+      <text x="522" y="251" text-anchor="end" class="proj-tag">[ CYBERSECURITY ]</text>
+
+      <text x="38" y="292" class="proj-desc">Security architecture focused on Zero Trust principles, hybrid</text>
+      <text x="38" y="310" class="proj-desc">datacenter infrastructure, cloud segmentation &amp; secure workloads.</text>
+
+      <!-- Tech Stack -->
+      <text x="38" y="344" class="tech-label" fill="#8B949E">
+        <tspan fill="#D2A8FF">●</tspan><tspan fill="#E6EDF3"> Python </tspan>
+        <tspan fill="#FFB86C">●</tspan><tspan fill="#E6EDF3"> AWS </tspan>
+        <tspan fill="#38BDF8">●</tspan><tspan fill="#E6EDF3"> Kubernetes </tspan>
+        <tspan fill="#7EE787">●</tspan><tspan fill="#E6EDF3"> Zero Trust</tspan>
+      </text>
+
+      <!-- Action Button -->
+      <rect x="38" y="364" width="168" height="30" rx="6" fill="url(#btnBg)" stroke="#30363D" stroke-width="1" />
+      <text x="122" y="383" text-anchor="middle" class="action-text" fill="#D2A8FF">VIEW REPOSITORY →</text>
+    </g>
+  </a>
+
+  <!-- ======================================================== -->
+  <!-- CARD 4: QuickNotes React (Row 2 Right)                   -->
+  <!-- ======================================================== -->
+  <a href="https://github.com/RAJCHITTORIYA/quicknotes-react" target="_blank" class="card-link">
+    <g>
+      <rect x="560" y="230" width="520" height="192" rx="12" fill="url(#pCardBg)" stroke="#30363D" stroke-width="1.2" class="card-rect" />
+      <path d="M 560,242 Q 560,230 572,230 L 1068,230 Q 1080,230 1080,242 L 1080,264 L 560,264 Z" fill="url(#pHeaderBg)" />
+      <line x1="560" y1="264" x2="1080" y2="264" stroke="#21262D" stroke-width="1" />
+
+      <circle cx="578" cy="247" r="4" fill="#00F0FF" />
+      <text x="590" y="252" class="proj-title" fill="url(#cyanText)">QuickNotes React</text>
+      <text x="1062" y="251" text-anchor="end" class="proj-tag">[ WEB APP ]</text>
+
+      <text x="578" y="292" class="proj-desc">Responsive productivity application built with React featuring</text>
+      <text x="578" y="310" class="proj-desc">modular components, state management and CRUD functionality.</text>
+
+      <!-- Tech Stack -->
+      <text x="578" y="344" class="tech-label" fill="#8B949E">
+        <tspan fill="#00F0FF">●</tspan><tspan fill="#E6EDF3"> React </tspan>
+        <tspan fill="#58A6FF">●</tspan><tspan fill="#E6EDF3"> JavaScript </tspan>
+        <tspan fill="#7EE787">●</tspan><tspan fill="#E6EDF3"> CSS3</tspan>
+      </text>
+
+      <!-- Action Button -->
+      <rect x="578" y="364" width="168" height="30" rx="6" fill="url(#btnBg)" stroke="#30363D" stroke-width="1" />
+      <text x="662" y="383" text-anchor="middle" class="action-text" fill="#00F0FF">VIEW REPOSITORY →</text>
+    </g>
+  </a>
+
+  <!-- ======================================================== -->
+  <!-- CARD 5: School Management ERP (Row 3 Centered)           -->
+  <!-- ======================================================== -->
+  <a href="https://github.com/RAJCHITTORIYA/School-Management" target="_blank" class="card-link">
+    <g>
+      <rect x="270" y="442" width="560" height="192" rx="12" fill="url(#pCardBg)" stroke="#30363D" stroke-width="1.2" class="card-rect" />
+      <path d="M 270,454 Q 270,442 282,442 L 818,442 Q 830,442 830,454 L 830,476 L 270,476 Z" fill="url(#pHeaderBg)" />
+      <line x1="270" y1="476" x2="830" y2="476" stroke="#21262D" stroke-width="1" />
+
+      <circle cx="288" cy="459" r="4" fill="#7EE787" />
+      <text x="300" y="464" class="proj-title" fill="url(#greenText)">School Management ERP</text>
+      <text x="812" y="463" text-anchor="end" class="proj-tag">[ ERP SYSTEM ]</text>
+
+      <text x="288" y="504" class="proj-desc">Web-based institutional management application for student</text>
+      <text x="288" y="522" class="proj-desc">records, admissions, faculty data and administrative workflows.</text>
+
+      <!-- Tech Stack -->
+      <text x="288" y="556" class="tech-label" fill="#8B949E">
+        <tspan fill="#7EE787">●</tspan><tspan fill="#E6EDF3"> PHP </tspan>
+        <tspan fill="#FFB86C">●</tspan><tspan fill="#E6EDF3"> MySQL </tspan>
+        <tspan fill="#00F0FF">●</tspan><tspan fill="#E6EDF3"> Web Development</tspan>
+      </text>
+
+      <!-- Action Button -->
+      <rect x="288" y="576" width="168" height="30" rx="6" fill="url(#btnBg)" stroke="#30363D" stroke-width="1" />
+      <text x="372" y="595" text-anchor="middle" class="action-text" fill="#7EE787">VIEW REPOSITORY →</text>
+    </g>
+  </a>
+</svg>

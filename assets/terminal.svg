@@ -1,0 +1,292 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 430" width="1100" height="430" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E131A" />
+      <stop offset="100%" stop-color="#090D12" />
+    </linearGradient>
+
+    <!-- Title Bar Gradient -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161B22" />
+      <stop offset="100%" stop-color="#12171E" />
+    </linearGradient>
+
+    <!-- Neon Top Edge Highlight -->
+    <linearGradient id="topGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0" />
+      <stop offset="25%" stop-color="#00F0FF" stop-opacity="0.6" />
+      <stop offset="75%" stop-color="#58A6FF" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- ASCII Art Gradient -->
+    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#58A6FF" />
+    </linearGradient>
+
+    <!-- Left Terminal Prompt Box Gradient -->
+    <linearGradient id="promptBoxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#131820" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0B0F14" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Subtle Cyan Glow Filter -->
+    <filter id="asciiGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComponentTransfer in="blur" result="glow">
+        <feFuncA type="linear" slope="0.4" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes blink {
+        0%, 49.9% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+
+      @keyframes cycle1 {
+        0%, 28% { opacity: 1; }
+        33.33%, 95% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+      @keyframes cycle2 {
+        0%, 28% { opacity: 0; }
+        33.33%, 61.33% { opacity: 1; }
+        66.66%, 100% { opacity: 0; }
+      }
+
+      @keyframes cycle3 {
+        0%, 61.33% { opacity: 0; }
+        66.66%, 94.66% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+
+      .cursor {
+        animation: blink 1s step-start infinite;
+      }
+
+      .status-pulse {
+        animation: pulseDot 2s ease-in-out infinite;
+      }
+
+      .cmd-group-1 {
+        animation: cycle1 12s ease-in-out infinite;
+      }
+
+      .cmd-group-2 {
+        animation: cycle2 12s ease-in-out infinite;
+      }
+
+      .cmd-group-3 {
+        animation: cycle3 12s ease-in-out infinite;
+      }
+
+      .mono-text {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'SF Mono', 'Courier New', monospace;
+      }
+    </style>
+  </defs>
+
+  <!-- ================= WINDOW CONTAINER ================= -->
+  <!-- Base Outer Window -->
+  <rect x="20" y="20" width="1060" height="390" rx="16" fill="url(#bgGradient)" stroke="#30363D" stroke-width="1.2" />
+
+  <!-- Top Border Accent Glow -->
+  <line x1="60" y1="20" x2="1040" y2="20" stroke="url(#topGlow)" stroke-width="1.5" />
+
+  <!-- Title Bar Header -->
+  <path d="M 20,36 Q 20,20 36,20 L 1064,20 Q 1080,20 1080,36 L 1080,62 L 20,62 Z" fill="url(#titleGradient)" />
+  <line x1="20" y1="62" x2="1080" y2="62" stroke="#21262D" stroke-width="1" />
+
+  <!-- Window Controls -->
+  <circle cx="48" cy="41" r="6" fill="#FF5F56" />
+  <circle cx="68" cy="41" r="6" fill="#FFBD2E" />
+  <circle cx="88" cy="41" r="6" fill="#27C93F" />
+
+  <!-- Title Bar Info -->
+  <g class="mono-text" font-size="12.5" font-weight="600">
+    <text x="115" y="46">
+      <tspan fill="#58A6FF">raj</tspan><tspan fill="#8B949E">@</tspan><tspan fill="#00F0FF">chittoriya</tspan><tspan fill="#484F58">: </tspan><tspan fill="#7EE787">~</tspan>
+    </text>
+  </g>
+
+  <!-- Title Bar Right Filename -->
+  <g class="mono-text" font-size="12" text-anchor="end">
+    <text x="1055" y="45">
+      <tspan fill="#484F58">● </tspan><tspan fill="#8B949E">PROFILE.md</tspan>
+    </text>
+  </g>
+
+  <!-- Split Pane Divider -->
+  <line x1="485" y1="78" x2="485" y2="392" stroke="#21262D" stroke-width="1" stroke-dasharray="4,4" />
+
+  <!-- ================= LEFT PANE ================= -->
+
+  <!-- ASCII Art: RAJ -->
+  <g class="mono-text" font-size="13.5" font-weight="bold" fill="url(#asciiGrad)" filter="url(#asciiGlow)">
+    <text x="48" y="102" xml:space="preserve">██████╗   █████╗      ██╗</text>
+    <text x="48" y="120" xml:space="preserve">██╔══██╗ ██╔══██╗     ██║</text>
+    <text x="48" y="138" xml:space="preserve">██████╔╝ ███████║     ██║</text>
+    <text x="48" y="156" xml:space="preserve">██╔══██╗ ██╔══██║██   ██║</text>
+    <text x="48" y="174" xml:space="preserve">██║  ██║ ██║  ██║╚█████╔╝</text>
+    <text x="48" y="192" xml:space="preserve">╚═╝  ╚═╝ ╚═╝  ╚═╝ ╚════╝ </text>
+  </g>
+
+  <!-- Tagline below ASCII -->
+  <text x="48" y="218" class="mono-text" font-size="12">
+    <tspan fill="#00F0FF" font-weight="bold">&gt; </tspan>
+    <tspan fill="#C9D1D9">engineering student </tspan>
+    <tspan fill="#484F58">• </tspan>
+    <tspan fill="#C9D1D9">developer </tspan>
+    <tspan fill="#484F58">• </tspan>
+    <tspan fill="#C9D1D9">problem solver</tspan>
+  </text>
+
+  <!-- Interactive Terminal Prompt Box -->
+  <rect x="44" y="238" width="418" height="152" rx="10" fill="url(#promptBoxGrad)" stroke="#21262D" stroke-width="1" />
+
+  <!-- Shell Prompt Header -->
+  <text x="58" y="262" class="mono-text" font-size="12" font-weight="600">
+    <tspan fill="#7EE787">➜ </tspan>
+    <tspan fill="#00F0FF">~</tspan>
+    <tspan fill="#8B949E"> git:(</tspan><tspan fill="#FF7B72">main</tspan><tspan fill="#8B949E">)</tspan>
+  </text>
+
+  <!-- Cycling Animated Commands -->
+  <!-- CMD 1: whoami -->
+  <g class="cmd-group-1 mono-text" font-size="12">
+    <text x="58" y="288">
+      <tspan fill="#8B949E">$ </tspan><tspan fill="#E6EDF3">whoami</tspan>
+    </text>
+    <text x="58" y="310">
+      <tspan fill="#00F0FF">↳ </tspan><tspan fill="#58A6FF" font-weight="600">Raj Chittoriya</tspan>
+    </text>
+    <text x="58" y="330">
+      <tspan fill="#484F58">  </tspan><tspan fill="#8B949E">B.Tech CSE @ IILM University</tspan>
+    </text>
+  </g>
+
+  <!-- CMD 2: focus / skills -->
+  <g class="cmd-group-2 mono-text" font-size="12">
+    <text x="58" y="288">
+      <tspan fill="#8B949E">$ </tspan><tspan fill="#E6EDF3">cat focus.txt</tspan>
+    </text>
+    <text x="58" y="310">
+      <tspan fill="#00F0FF">↳ </tspan><tspan fill="#7EE787" font-weight="600">Software Development &amp; DSA</tspan>
+    </text>
+    <text x="58" y="330">
+      <tspan fill="#484F58">  </tspan><tspan fill="#8B949E">Java • Python • C++ • SQL • DBMS</tspan>
+    </text>
+  </g>
+
+  <!-- CMD 3: status -->
+  <g class="cmd-group-3 mono-text" font-size="12">
+    <text x="58" y="288">
+      <tspan fill="#8B949E">$ </tspan><tspan fill="#E6EDF3">curl -s /status</tspan>
+    </text>
+    <text x="58" y="310">
+      <tspan fill="#00F0FF">↳ </tspan><tspan fill="#FFB86C" font-weight="600">Building &amp; Learning</tspan>
+    </text>
+    <text x="58" y="330">
+      <tspan fill="#484F58">  </tspan><tspan fill="#8B949E">Delhi NCR, India • 2024–2028</tspan>
+    </text>
+  </g>
+
+  <!-- Persistent Active Prompt Line with Blinking Cursor -->
+  <text x="58" y="366" class="mono-text" font-size="12">
+    <tspan fill="#7EE787">raj@chittoriya:~$ </tspan>
+    <tspan fill="#00F0FF" class="cursor">█</tspan>
+  </text>
+
+
+  <!-- ================= RIGHT PANE ================= -->
+
+  <!-- Neofetch / Terminal Profile Header -->
+  <text x="515" y="96" class="mono-text" font-size="13" font-weight="bold">
+    <tspan fill="#00F0FF">raj</tspan><tspan fill="#8B949E">@</tspan><tspan fill="#58A6FF">chittoriya</tspan>
+    <tspan fill="#484F58"> ──────────── </tspan>
+    <tspan fill="#8B949E" font-size="11.5" font-weight="normal">[developer.spec]</tspan>
+  </text>
+
+  <line x1="515" y1="108" x2="1055" y2="108" stroke="#21262D" stroke-width="1" />
+
+  <!-- 12 Profile Rows with aligned dot leaders -->
+  <g class="mono-text" font-size="12.5">
+    <!-- OS -->
+    <text x="515" y="130">
+      <tspan fill="#FFB86C">OS</tspan><tspan fill="#30363D">.................</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#E6EDF3">Windows / Linux</tspan>
+    </text>
+
+    <!-- Degree -->
+    <text x="515" y="152">
+      <tspan fill="#FFB86C">Degree</tspan><tspan fill="#30363D">.............</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#E6EDF3">B.Tech Computer Science &amp; Engineering</tspan>
+    </text>
+
+    <!-- College -->
+    <text x="515" y="174">
+      <tspan fill="#FFB86C">College</tspan><tspan fill="#30363D">............</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#E6EDF3">IILM University, Greater Noida</tspan>
+    </text>
+
+    <!-- Batch -->
+    <text x="515" y="196">
+      <tspan fill="#FFB86C">Batch</tspan><tspan fill="#30363D">..............</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#E6EDF3">2024–2028</tspan>
+    </text>
+
+    <!-- Location -->
+    <text x="515" y="218">
+      <tspan fill="#FFB86C">Location</tspan><tspan fill="#30363D">...........</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#E6EDF3">Delhi NCR, India</tspan>
+    </text>
+
+    <!-- GitHub -->
+    <text x="515" y="240">
+      <tspan fill="#58A6FF">GitHub</tspan><tspan fill="#30363D">.............</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#58A6FF" font-weight="600">RAJCHITTORIYA</tspan>
+    </text>
+
+    <!-- LeetCode -->
+    <text x="515" y="262">
+      <tspan fill="#58A6FF">LeetCode</tspan><tspan fill="#30363D">...........</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#FFB86C">raj_chittoriya</tspan>
+    </text>
+
+    <!-- LinkedIn -->
+    <text x="515" y="284">
+      <tspan fill="#58A6FF">LinkedIn</tspan><tspan fill="#30363D">...........</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#79C0FF">raj-chittoriya-7179a7322</tspan>
+    </text>
+
+    <!-- Email -->
+    <text x="515" y="306">
+      <tspan fill="#58A6FF">Email</tspan><tspan fill="#30363D">..............</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#8B949E">rajchittoriya190@gmail.com</tspan>
+    </text>
+
+    <!-- Languages -->
+    <text x="515" y="328">
+      <tspan fill="#7EE787">Languages</tspan><tspan fill="#30363D">..........</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#00F0FF" font-weight="600">Java, Python, C++, SQL</tspan>
+    </text>
+
+    <!-- Core -->
+    <text x="515" y="350">
+      <tspan fill="#7EE787">Core</tspan><tspan fill="#30363D">...............</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#E6EDF3">DSA, OOP, DBMS</tspan>
+    </text>
+
+    <!-- Status -->
+    <text x="515" y="372">
+      <tspan fill="#7EE787">Status</tspan><tspan fill="#30363D">.............</tspan><tspan fill="#8B949E"> </tspan><tspan fill="#7EE787" font-weight="600">Building &amp; Learning</tspan>
+    </text>
+  </g>
+
+  <!-- Live Status Pulse Indicator -->
+  <circle cx="822" cy="368" r="4" fill="#3FB950" class="status-pulse" />
+  <circle cx="822" cy="368" r="7" fill="#3FB950" opacity="0.25" />
+</svg>

@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 350" width="1100" height="350" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#11161D" />
+      <stop offset="100%" stop-color="#0B0F14" />
+    </linearGradient>
+
+    <linearGradient id="badgeBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161B22" />
+      <stop offset="100%" stop-color="#12171E" />
+    </linearGradient>
+
+    <!-- Category Header Gradients -->
+    <linearGradient id="progGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#58A6FF" />
+    </linearGradient>
+
+    <linearGradient id="dbGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB86C" />
+      <stop offset="100%" stop-color="#FF9E3B" />
+    </linearGradient>
+
+    <linearGradient id="webGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EE787" />
+      <stop offset="100%" stop-color="#56D364" />
+    </linearGradient>
+
+    <linearGradient id="toolGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D2A8FF" />
+      <stop offset="100%" stop-color="#A371F7" />
+    </linearGradient>
+
+    <style>
+      .mono {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'SF Mono', 'Courier New', monospace;
+      }
+      .card {
+        transition: transform 0.2s ease;
+      }
+      .skill-text {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 12.5px;
+        fill: #E6EDF3;
+        font-weight: 500;
+      }
+      .category-title {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 12.5px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+      .category-sub {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 11px;
+        fill: #484F58;
+      }
+    </style>
+  </defs>
+
+  <!-- ========================================== -->
+  <!-- CARD 1: PROGRAMMING (Top Left)            -->
+  <!-- ========================================== -->
+  <g class="card">
+    <rect x="20" y="18" width="520" height="145" rx="12" fill="url(#cardBg)" stroke="#30363D" stroke-width="1.2" />
+    <path d="M 20,30 Q 20,18 32,18 L 528,18 Q 540,18 540,30 L 540,48 L 20,48 Z" fill="#161B22" />
+    <line x1="20" y1="48" x2="540" y2="48" stroke="#21262D" stroke-width="1" />
+    <circle cx="36" cy="33" r="3.5" fill="#00F0FF" />
+    <text x="48" y="37" class="category-title" fill="url(#progGrad)">01. PROGRAMMING</text>
+    <text x="525" y="37" text-anchor="end" class="category-sub">LANGUAGES</text>
+
+    <!-- Row 1 -->
+    <rect x="38" y="62" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="53" cy="78" r="3" fill="#00F0FF" />
+    <text x="65" y="82" class="skill-text">Java</text>
+
+    <rect x="200" y="62" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="215" cy="78" r="3" fill="#00F0FF" />
+    <text x="227" y="82" class="skill-text">Python</text>
+
+    <rect x="362" y="62" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="377" cy="78" r="3" fill="#00F0FF" />
+    <text x="389" y="82" class="skill-text">C</text>
+
+    <!-- Row 2 -->
+    <rect x="38" y="104" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="53" cy="120" r="3" fill="#58A6FF" />
+    <text x="65" y="124" class="skill-text">C++</text>
+
+    <rect x="200" y="104" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="215" cy="120" r="3" fill="#58A6FF" />
+    <text x="227" y="124" class="skill-text">JavaScript</text>
+
+    <rect x="362" y="104" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="377" cy="120" r="3" fill="#58A6FF" />
+    <text x="389" y="124" class="skill-text">PHP</text>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- CARD 2: DATABASES (Top Right)              -->
+  <!-- ========================================== -->
+  <g class="card">
+    <rect x="560" y="18" width="520" height="145" rx="12" fill="url(#cardBg)" stroke="#30363D" stroke-width="1.2" />
+    <path d="M 560,30 Q 560,18 572,18 L 1068,18 Q 1080,18 1080,30 L 1080,48 L 560,48 Z" fill="#161B22" />
+    <line x1="560" y1="48" x2="1080" y2="48" stroke="#21262D" stroke-width="1" />
+    <circle cx="576" cy="33" r="3.5" fill="#FFB86C" />
+    <text x="588" y="37" class="category-title" fill="url(#dbGrad)">02. DATABASES</text>
+    <text x="1065" y="37" text-anchor="end" class="category-sub">STORAGE &amp; QUERY</text>
+
+    <!-- Row 1 -->
+    <rect x="578" y="62" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="593" cy="78" r="3" fill="#FFB86C" />
+    <text x="605" y="82" class="skill-text">MySQL</text>
+
+    <rect x="740" y="62" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="755" cy="78" r="3" fill="#FFB86C" />
+    <text x="767" y="82" class="skill-text">SQL</text>
+
+    <rect x="902" y="62" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="917" cy="78" r="3" fill="#FFB86C" />
+    <text x="929" y="82" class="skill-text">DBMS</text>
+
+    <!-- Row 2 -->
+    <rect x="578" y="104" width="232" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="593" cy="120" r="3" fill="#FF9E3B" />
+    <text x="605" y="124" class="skill-text">Relational Databases</text>
+
+    <rect x="822" y="104" width="230" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="837" cy="120" r="3" fill="#FF9E3B" />
+    <text x="849" y="124" class="skill-text">Schema Design</text>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- CARD 3: WEB / DEVELOPMENT (Bottom Left)    -->
+  <!-- ========================================== -->
+  <g class="card">
+    <rect x="20" y="180" width="520" height="145" rx="12" fill="url(#cardBg)" stroke="#30363D" stroke-width="1.2" />
+    <path d="M 20,192 Q 20,180 32,180 L 528,180 Q 540,180 540,192 L 540,210 L 20,210 Z" fill="#161B22" />
+    <line x1="20" y1="210" x2="540" y2="210" stroke="#21262D" stroke-width="1" />
+    <circle cx="36" cy="195" r="3.5" fill="#7EE787" />
+    <text x="48" y="199" class="category-title" fill="url(#webGrad)">03. WEB / DEVELOPMENT</text>
+    <text x="525" y="199" text-anchor="end" class="category-sub">FRONTEND &amp; BACKEND</text>
+
+    <!-- Row 1 -->
+    <rect x="38" y="224" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="53" cy="240" r="3" fill="#7EE787" />
+    <text x="65" y="244" class="skill-text">React</text>
+
+    <rect x="200" y="224" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="215" cy="240" r="3" fill="#7EE787" />
+    <text x="227" y="244" class="skill-text">Node.js</text>
+
+    <rect x="362" y="224" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="377" cy="240" r="3" fill="#7EE787" />
+    <text x="389" y="244" class="skill-text">HTML5</text>
+
+    <!-- Row 2 -->
+    <rect x="38" y="266" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="53" cy="282" r="3" fill="#56D364" />
+    <text x="65" y="286" class="skill-text">CSS3</text>
+
+    <rect x="200" y="266" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="215" cy="282" r="3" fill="#56D364" />
+    <text x="227" y="286" class="skill-text">REST APIs</text>
+
+    <rect x="362" y="266" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="377" cy="282" r="3" fill="#56D364" />
+    <text x="389" y="286" class="skill-text">CRUD Apps</text>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- CARD 4: TOOLS & WORKFLOW (Bottom Right)    -->
+  <!-- ========================================== -->
+  <g class="card">
+    <rect x="560" y="180" width="520" height="145" rx="12" fill="url(#cardBg)" stroke="#30363D" stroke-width="1.2" />
+    <path d="M 560,192 Q 560,180 572,180 L 1068,180 Q 1080,180 1080,192 L 1080,210 L 560,210 Z" fill="#161B22" />
+    <line x1="560" y1="210" x2="1080" y2="210" stroke="#21262D" stroke-width="1" />
+    <circle cx="576" cy="195" r="3.5" fill="#D2A8FF" />
+    <text x="588" y="199" class="category-title" fill="url(#toolGrad)">04. TOOLS &amp; WORKFLOW</text>
+    <text x="1065" y="199" text-anchor="end" class="category-sub">ENVIRONMENT</text>
+
+    <!-- Row 1 -->
+    <rect x="578" y="224" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="593" cy="240" r="3" fill="#D2A8FF" />
+    <text x="605" y="244" class="skill-text">Git</text>
+
+    <rect x="740" y="224" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="755" cy="240" r="3" fill="#D2A8FF" />
+    <text x="767" y="244" class="skill-text">GitHub</text>
+
+    <rect x="902" y="224" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="917" cy="240" r="3" fill="#D2A8FF" />
+    <text x="929" y="244" class="skill-text">Linux</text>
+
+    <!-- Row 2 -->
+    <rect x="578" y="266" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="593" cy="282" r="3" fill="#A371F7" />
+    <text x="605" y="286" class="skill-text">VS Code</text>
+
+    <rect x="740" y="266" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="755" cy="282" r="3" fill="#A371F7" />
+    <text x="767" y="286" class="skill-text">Postman</text>
+
+    <rect x="902" y="266" width="150" height="32" rx="6" fill="url(#badgeBg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="917" cy="282" r="3" fill="#A371F7" />
+    <text x="929" y="286" class="skill-text">Jupyter</text>
+  </g>
+</svg>
