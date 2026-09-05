@@ -26,12 +26,6 @@ Computer Science & Engineering student focused on Data Structures & Algorithms, 
 
 ---
 
-## 🚀 Featured Projects
-
-![Featured Projects](./assets/projects.svg)
-
----
-
 ## 📊 GitHub & Coding Stats
 
 [![LeetCode Stats](https://leetcard.jacoblin.cool/raj_chittoriya?theme=dark&font=JetBrains%20Mono&ext=contest)](https://leetcode.com/u/raj_chittoriya/)
@@ -41,16 +35,6 @@ Computer Science & Engineering student focused on Data Structures & Algorithms, 
 ![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=RAJCHITTORIYA&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&bg_color=0D1117&title_color=00F0FF&text_color=E0E0E0&icon_color=00F0FF)
 
 ![Top Languages](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=RAJCHITTORIYA&theme=tokyonight&layout=compact&hide_border=true&border_radius=10&bg_color=0D1117&title_color=00F0FF&text_color=E0E0E0)
-
----
-
-## 🛠️ Technical Skills
-
-![Technical Skills](./assets/skills.svg)
-
-[![Languages & Frameworks](https://skillicons.dev/icons?i=java,python,c,cpp,js,php,react,nodejs,html,css&perline=10&theme=dark)](https://skillicons.dev)
-
-[![Databases & Developer Tools](https://skillicons.dev/icons?i=mysql,postgres,git,github,linux,vscode,postman,jupyter&perline=8&theme=dark)](https://skillicons.dev)
 
 ---
 
