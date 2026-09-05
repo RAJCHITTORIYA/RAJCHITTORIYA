@@ -81,6 +81,7 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
   <img src="https://img.shields.io/badge/LinkedIn-Raj_Chittoriya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 
 </a>
+&nbsp;
 
  
 
@@ -89,6 +90,7 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
   <img src="https://img.shields.io/badge/LeetCode-raj__chittoriya-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
 
 </a>
+&nbsp;
 
  
 
@@ -97,6 +99,7 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
   <img src="https://img.shields.io/badge/GeeksforGeeks-rajchitto9a10-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG" />
 
 </a>
+&nbsp;
 
  
 
@@ -105,6 +108,7 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
   <img src="https://img.shields.io/badge/GitHub-RAJCHITTORIYA-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 
 </a>
+&nbsp;
 
  
 
