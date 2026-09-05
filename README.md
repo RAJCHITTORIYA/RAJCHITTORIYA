@@ -30,25 +30,13 @@ Computer Science & Engineering student focused on Data Structures & Algorithms, 
 
 ![Featured Projects](./assets/projects.svg)
 
-### 📂 Dynamically Featured Repositories
-
-<!-- REPOS_START -->
-- [🔹 **PACK_CHECK**](https://github.com/RAJCHITTORIYA/PACK_CHECK) — *AI-powered legal metrology compliance inspection system using OCR and intelligent parsing.* (`JavaScript`)
-- [🔹 **dsa**](https://github.com/RAJCHITTORIYA/dsa) — *Structured Java problem-solving implementations covering foundational & advanced DSA patterns.* (`Java`)
-- [🔹 **Secure-Hybrid-Datacenter-Network-Architecture-Multi-Tier-Cloud-Segmentation**](https://github.com/RAJCHITTORIYA/Secure-Hybrid-Datacenter-Network-Architecture-Multi-Tier-Cloud-Segmentation) — *Zero Trust hybrid cybersecurity architecture securing datacenters, AWS multi-VPC & Kubernetes.* (`Python`)
-- [🔹 **quicknotes-react**](https://github.com/RAJCHITTORIYA/quicknotes-react) — *Responsive productivity application built with React showcasing component modularity & CRUD hooks.* (`JavaScript`)
-- [🔹 **School-Management**](https://github.com/RAJCHITTORIYA/School-Management) — *Web-based institutional ERP application for student records, admissions & administration.* (`PHP`)
-<!-- REPOS_END -->
-
 ---
 
-## 📊 Dynamic GitHub Statistics
+## 📊 GitHub & Coding Stats
 
-### 🔥 Live Contribution Streak
+[![LeetCode Stats](https://leetcard.jacoblin.cool/raj_chittoriya?theme=dark&font=JetBrains%20Mono&ext=contest)](https://leetcode.com/u/raj_chittoriya/)
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=RAJCHITTORIYA&theme=tokyonight&hide_border=true&border_radius=10&background=0D1117&ring=00F0FF&fire=00F0FF&currStreakNum=7EE787&sideNums=E0E0E0&currStreakLabel=00F0FF)](https://github.com/RAJCHITTORIYA)
-
-### 📈 Activity & Languages Overview
 
 ![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=RAJCHITTORIYA&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&bg_color=0D1117&title_color=00F0FF&text_color=E0E0E0&icon_color=00F0FF)
 
@@ -56,31 +44,13 @@ Computer Science & Engineering student focused on Data Structures & Algorithms, 
 
 ---
 
-## 🧩 Dynamic LeetCode Statistics
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/raj_chittoriya?theme=dark&font=JetBrains%20Mono&ext=contest)](https://leetcode.com/u/raj_chittoriya/)
-
----
-
-## 🛠️ Coding Stack / Technical Skills
+## 🛠️ Technical Skills
 
 ![Technical Skills](./assets/skills.svg)
-
-### ⚡ Technology Arsenal
 
 [![Languages & Frameworks](https://skillicons.dev/icons?i=java,python,c,cpp,js,php,react,nodejs,html,css&perline=10&theme=dark)](https://skillicons.dev)
 
 [![Databases & Developer Tools](https://skillicons.dev/icons?i=mysql,postgres,git,github,linux,vscode,postman,jupyter&perline=8&theme=dark)](https://skillicons.dev)
-
----
-
-## 🎯 Current Focus
-
-- 🧩 **DSA Problem Solving:** Advancing algorithm efficiency, graph algorithms, dynamic programming, and recursion patterns in Java.
-- 🛠️ **Project Development:** Building practical, production-ready software solutions with clean architecture.
-- 🗄️ **Database & Backend Systems:** Deepening knowledge in SQL optimization, database indexing, and backend design.
-- 📚 **Academic Growth:** Strengthening core Computer Science concepts through coursework and self-study.
-- ⚡ **Competitive Programming:** Consistently solving problems on LeetCode and GeeksforGeeks.
 
 ---
 
