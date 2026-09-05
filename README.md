@@ -9,10 +9,10 @@ Computer Science & Engineering student focused on Data Structures & Algorithms, 
 ## 👨‍💻 About Me
 
 - 🎓 **Undergraduate Student:** Pursuing B.Tech in Computer Science & Engineering at IILM University, Greater Noida (Batch 2024–2028).
-- 🧩 **DSA & Problem Solving:** Actively practicing problem-solving and algorithmic thinking primarily in Java.
-- 💻 **Software Development:** Building functional, real-world software applications and exploring modern web development.
-- 🗄️ **Databases & Systems:** Working with relational databases, SQL, DBMS concepts, and system fundamentals.
-- 🚀 **Hands-on Learner:** Constantly building projects, writing clean code, and exploring emerging software technologies.
+- 🧩 **DSA & Problem Solving:** Actively practicing problem-solving, algorithms, and computational thinking primarily in Java.
+- 💻 **Software Development:** Building functional, real-world software applications and exploring modern backend & frontend engineering.
+- 🗄️ **Databases & Systems:** Working with relational database management systems (DBMS), SQL querying, and schema design.
+- 🚀 **Hands-on Learner:** Constantly building projects, writing clean maintainable code, and exploring emerging software technologies.
 
 ---
 
@@ -30,19 +30,25 @@ Computer Science & Engineering student focused on Data Structures & Algorithms, 
 
 ![Featured Projects](./assets/projects.svg)
 
+### 📂 Dynamically Featured Repositories
+
+<!-- REPOS_START -->
+- [🔹 **PACK_CHECK**](https://github.com/RAJCHITTORIYA/PACK_CHECK) — *AI-powered legal metrology compliance inspection system using OCR and intelligent parsing.* (`JavaScript`)
+- [🔹 **dsa**](https://github.com/RAJCHITTORIYA/dsa) — *Structured Java problem-solving implementations covering foundational & advanced DSA patterns.* (`Java`)
+- [🔹 **Secure-Hybrid-Datacenter-Network-Architecture-Multi-Tier-Cloud-Segmentation**](https://github.com/RAJCHITTORIYA/Secure-Hybrid-Datacenter-Network-Architecture-Multi-Tier-Cloud-Segmentation) — *Zero Trust hybrid cybersecurity architecture securing datacenters, AWS multi-VPC & Kubernetes.* (`Python`)
+- [🔹 **quicknotes-react**](https://github.com/RAJCHITTORIYA/quicknotes-react) — *Responsive productivity application built with React showcasing component modularity & CRUD hooks.* (`JavaScript`)
+- [🔹 **School-Management**](https://github.com/RAJCHITTORIYA/School-Management) — *Web-based institutional ERP application for student records, admissions & administration.* (`PHP`)
+<!-- REPOS_END -->
+
 ---
 
-## 📊 GitHub & Coding Stats
+## 📊 Dynamic GitHub Statistics
 
-### 🟢 LeetCode — Live Stats
+### 🔥 Live Contribution Streak
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/raj_chittoriya?theme=dark&font=JetBrains%20Mono)](https://leetcode.com/u/raj_chittoriya/)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=RAJCHITTORIYA&theme=tokyonight&hide_border=true&border_radius=10&background=0D1117&ring=00F0FF&fire=00F0FF&currStreakNum=7EE787&sideNums=E0E0E0&currStreakLabel=00F0FF)](https://github.com/RAJCHITTORIYA)
 
-### 🔥 GitHub Contribution Streak
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=RAJCHITTORIYA&theme=tokyonight&hide_border=true&border_radius=10&background=0D1117&ring=00F0FF&fire=FF4500&currStreakNum=00F0FF&sideNums=E0E0E0&currStreakLabel=00F0FF)](https://github.com/RAJCHITTORIYA)
-
-### 📈 GitHub Statistics
+### 📈 Activity & Languages Overview
 
 ![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=RAJCHITTORIYA&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&bg_color=0D1117&title_color=00F0FF&text_color=E0E0E0&icon_color=00F0FF)
 
@@ -50,24 +56,40 @@ Computer Science & Engineering student focused on Data Structures & Algorithms, 
 
 ---
 
-## 🛠️ Technical Stack & Skills
+## 🧩 Dynamic LeetCode Statistics
 
-### Languages & Frameworks
+[![LeetCode Stats](https://leetcard.jacoblin.cool/raj_chittoriya?theme=dark&font=JetBrains%20Mono&ext=contest)](https://leetcode.com/u/raj_chittoriya/)
 
-[![Skills](https://skillicons.dev/icons?i=java,python,c,cpp,js,php,react,nodejs,html,css&perline=10&theme=dark)](https://skillicons.dev)
+---
 
-### Databases & Developer Tools
+## 🛠️ Coding Stack / Technical Skills
 
-[![Tools](https://skillicons.dev/icons?i=mysql,postgres,git,github,linux,vscode,postman,jupyter&perline=8&theme=dark)](https://skillicons.dev)
+![Technical Skills](./assets/skills.svg)
+
+### ⚡ Technology Arsenal
+
+[![Languages & Frameworks](https://skillicons.dev/icons?i=java,python,c,cpp,js,php,react,nodejs,html,css&perline=10&theme=dark)](https://skillicons.dev)
+
+[![Databases & Developer Tools](https://skillicons.dev/icons?i=mysql,postgres,git,github,linux,vscode,postman,jupyter&perline=8&theme=dark)](https://skillicons.dev)
 
 ---
 
 ## 🎯 Current Focus
 
 - 🧩 **DSA Problem Solving:** Advancing algorithm efficiency, graph algorithms, dynamic programming, and recursion patterns in Java.
-- 🛠️ **Project Development:** Building practical software solutions with clean and maintainable architecture.
+- 🛠️ **Project Development:** Building practical, production-ready software solutions with clean architecture.
 - 🗄️ **Database & Backend Systems:** Deepening knowledge in SQL optimization, database indexing, and backend design.
 - 📚 **Academic Growth:** Strengthening core Computer Science concepts through coursework and self-study.
 - ⚡ **Competitive Programming:** Consistently solving problems on LeetCode and GeeksforGeeks.
 
 ---
+
+## 💡 Developer Philosophy
+
+> *"Build. Break. Debug. Learn. Repeat."*
+
+---
+
+<p align="center">
+  ⭐ <i>Thanks for visiting! Feel free to check out my repositories or connect on <a href="https://www.linkedin.com/in/raj-chittoriya-7179a7322/">LinkedIn</a>.</i>
+</p>
