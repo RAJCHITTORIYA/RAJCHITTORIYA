@@ -250,20 +250,6 @@ Developer Tools
 
 </td>
 
-🚀 Featured Projects & Repositories
-
-<table>
-  <tr>
-
-<td width="50%" valign="top">
-
-  <h3 align="center">🎓 University Course Registration (UCR)</h3>
-
-  <p align="center">
-    <a href="https://github.com/Vaibhav-00018/DBMS_PROJECT-UCR-">
-      <img src="https://img.shields.io/badge/View_Repository-DBMS__PROJECT--UCR-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="DBMS Repo" />
-    </a>
-  </p>
 
   <p>A comprehensive DBMS-centric architecture designed to streamline student course registration, faculty assignments, schedule allocation, and academic record integrity.</p>
 
@@ -289,41 +275,6 @@ Developer Tools
 
   </tr>
 
-  <tr>
-
-<td width="50%" valign="top">
-
-  <h3 align="center">☕ PALB Java Solutions & Algorithms</h3>
-
-  <p align="center">
-    <a href="https://github.com/Vaibhav-00018/PALB_JAVA_SOLUTIONS">
-      <img src="https://img.shields.io/badge/View_Repository-PALB__JAVA-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="Java Repo" />
-    </a>
-  </p>
-
-  <p>A structured laboratory repository containing Java implementations for fundamental algorithms, Object-Oriented Programming (OOP) patterns, and data structures.</p>
-
-  <p><b>Tech:</b> <code>Java</code> <code>OOP</code> <code>Data Structures</code> <code>Problem Solving</code></p>
-
-</td>
-
-<td width="50%" valign="top">
-
-  <h3 align="center">📓 Python IT & Computational Notebooks</h3>
-
-  <p align="center">
-    <a href="https://github.com/Vaibhav-00018/AFMD_python_IT">
-      <img src="https://img.shields.io/badge/View_Repository-AFMD__python__IT-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="Python IT Repo" />
-    </a>
-  </p>
-
-  <p>Interactive Jupyter Notebooks encompassing computational problem sets, data manipulation experiments, and practical scripts for academic exploration.</p>
-
-  <p><b>Tech:</b> <code>Python</code> <code>Jupyter Notebook</code> <code>Data Exploration</code></p>
-
-</td>
-
-  </tr>
 </table>
 
 
