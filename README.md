@@ -219,20 +219,7 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 
 ---
 
-### 🚀 Featured Projects & Repositories
 
-<!-- Projects will be replaced with Raj's actual repositories -->
-
-<table>
-
-  <tr>
-
-```
-<td width="50%" valign="top">
-
-  <h3 align="center">🎓 University Course Registration (UCR)</h3>
-
-  <p align="center">
 
     <a href="https://github.com/Vaibhav-00018/DBMS_PROJECT-UCR-">
 
@@ -269,6 +256,45 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 </td>
 ```
 
+ ### 🚀 Featured Projects & Repositories
+
+<table>
+  <tr>
+
+```
+<td width="50%" valign="top">
+
+  <h3 align="center">🎓 University Course Registration (UCR)</h3>
+
+  <p align="center">
+    <a href="https://github.com/Vaibhav-00018/DBMS_PROJECT-UCR-">
+      <img src="https://img.shields.io/badge/View_Repository-DBMS__PROJECT--UCR-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="DBMS Repo" />
+    </a>
+  </p>
+
+  <p>A comprehensive DBMS-centric architecture designed to streamline student course registration, faculty assignments, schedule allocation, and academic record integrity.</p>
+
+  <p><b>Tech:</b> <code>SQL</code> <code>RDBMS</code> <code>Database Architecture</code> <code>Entity-Relationship Design</code></p>
+
+</td>
+
+<td width="50%" valign="top">
+
+  <h3 align="center">📋 Student Attendance Management System</h3>
+
+  <p align="center">
+    <a href="https://github.com/Vaibhav-00018/PROJECT-O1---Student-Attendance-Managment-System">
+      <img src="https://img.shields.io/badge/View_Repository-Attendance__System-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="Attendance Repo" />
+    </a>
+  </p>
+
+  <p>Automated software solution to record, process, and inspect daily student attendance figures, significantly eliminating manual spreadsheet errors.</p>
+
+  <p><b>Tech:</b> <code>Python</code> <code>File I/O</code> <code>Automation</code> <code>Data Processing</code></p>
+
+</td>
+```
+
   </tr>
 
   <tr>
@@ -279,13 +305,9 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
   <h3 align="center">☕ PALB Java Solutions & Algorithms</h3>
 
   <p align="center">
-
     <a href="https://github.com/Vaibhav-00018/PALB_JAVA_SOLUTIONS">
-
       <img src="https://img.shields.io/badge/View_Repository-PALB__JAVA-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="Java Repo" />
-
     </a>
-
   </p>
 
   <p>A structured laboratory repository containing Java implementations for fundamental algorithms, Object-Oriented Programming (OOP) patterns, and data structures.</p>
@@ -299,13 +321,9 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
   <h3 align="center">📓 Python IT & Computational Notebooks</h3>
 
   <p align="center">
-
     <a href="https://github.com/Vaibhav-00018/AFMD_python_IT">
-
       <img src="https://img.shields.io/badge/View_Repository-AFMD__python__IT-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="Python IT Repo" />
-
     </a>
-
   </p>
 
   <p>Interactive Jupyter Notebooks encompassing computational problem sets, data manipulation experiments, and practical scripts for academic exploration.</p>
@@ -316,10 +334,10 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 ```
 
   </tr>
-
 </table>
 
----
+
+```
 
 ### 💡 Daily Dev Inspiration
 
